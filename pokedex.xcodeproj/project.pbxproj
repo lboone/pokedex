@@ -12,6 +12,7 @@
 		12CB704D1C7B9532000197C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CB704B1C7B9532000197C9 /* Main.storyboard */; };
 		12CB704F1C7B9532000197C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CB704E1C7B9532000197C9 /* Assets.xcassets */; };
 		12CB70521C7B9532000197C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CB70501C7B9532000197C9 /* LaunchScreen.storyboard */; };
+		12CB705E1C7B97B3000197C9 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 12CB705D1C7B97B3000197C9 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		12CB704E1C7B9532000197C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12CB70511C7B9532000197C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12CB70531C7B9532000197C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CB705D1C7B97B3000197C9 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,10 @@
 		12CB70461C7B9532000197C9 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				12CB705C1C7B979B000197C9 /* Assets */,
+				12CB705B1C7B9795000197C9 /* Model */,
+				12CB705A1C7B9791000197C9 /* View */,
+				12CB70591C7B9786000197C9 /* Controller */,
 				12CB70471C7B9532000197C9 /* AppDelegate.swift */,
 				12CB70491C7B9532000197C9 /* ViewController.swift */,
 				12CB704B1C7B9532000197C9 /* Main.storyboard */,
@@ -62,6 +68,35 @@
 				12CB70531C7B9532000197C9 /* Info.plist */,
 			);
 			path = pokedex;
+			sourceTree = "<group>";
+		};
+		12CB70591C7B9786000197C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		12CB705A1C7B9791000197C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		12CB705B1C7B9795000197C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		12CB705C1C7B979B000197C9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				12CB705D1C7B97B3000197C9 /* pokemon.csv */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +160,7 @@
 			files = (
 				12CB70521C7B9532000197C9 /* LaunchScreen.storyboard in Resources */,
 				12CB704F1C7B9532000197C9 /* Assets.xcassets in Resources */,
+				12CB705E1C7B97B3000197C9 /* pokemon.csv in Resources */,
 				12CB704D1C7B9532000197C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
